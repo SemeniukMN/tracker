@@ -18,8 +18,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header/>
-        {children}
+        <div className="h-full w-full flex flex-col px-8 py-4">
+          <Header className="mb-6"/>
+          <div className="flex-1 shadow rounded-lg bg-white p-8">
+            {children}
+          </div>
+        </div>
       </body>
     </html>
   )
