@@ -36,3 +36,10 @@ next-env.d.ts
 
 # webstorm
 .idea
+
+# environment variables
+.env
+
+# database
+prisma/dev.db
+prisma/dev.db-journal
